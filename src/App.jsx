@@ -8,19 +8,19 @@ const mocData = [
   {
     id:0,
     isDone:false,
-    content:"React 공부하기",
+    content:"데미안",
     date:new Date().getTime()
   },
     {
     id:1,
     isDone:false,
-    content:"운동하기",
+    content:"어린 왕자",
     date:new Date().getTime()
   },
     {
     id:2,
     isDone:false,
-    content:"여행가기",
+    content:"불편한 편의점",
     date:new Date().getTime()
   }
 ]

@@ -28,8 +28,8 @@ const TodoEditor = ({onCreate}) => {
       value={content}
       onKeyDown={onKeyDown}
       onChange={onchangeContent}
-      placeholder="새로운 Todo..." />
-      <button onClick={onSubmit}>추가</button>
+      placeholder="읽을 책 제목..." />
+      <button onClick={onSubmit}>담기</button>
     </div>
   );
 };

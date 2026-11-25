@@ -22,11 +22,11 @@ const TodoList = ({todos, onUpdate, onDelete}) => {
 
   return (
     <div className="TodoList">
-      <h4>Todo List 🌱</h4>
+      <h4>	읽을 책 목록 📖</h4>
       <input
         value={search}
         onChange={onChangeSearch}
-        placeholder="검색어를 입력하세요" />
+        placeholder="책 제목으로 검색" />
       <div className="todos-wrapper">
         {filteredTodos.map((todo)=>{
             return <TodoItem key={todo.id} {...todo} onUpdate={onUpdate} onDelete={onDelete}/>
