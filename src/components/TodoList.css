@@ -4,6 +4,10 @@
   gap: 20px;
 }
 
+.TodoList > h4 {
+  color: #8B5E3C;
+}
+
 .TodoList > input {
   width: 100%;
   border: none;

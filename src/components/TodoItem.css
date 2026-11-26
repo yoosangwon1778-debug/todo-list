@@ -12,7 +12,7 @@
     cursor: pointer;
     width: 18px;
     height: 18px;
-    accent-color: gray;
+    accent-color: #8B5E3C;
 }
 .TodoItem .content {
     flex: 1;
